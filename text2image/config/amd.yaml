@@ -1,0 +1,10 @@
+pipeline: stable_diffusion
+base_model_id: stabilityai/stable-diffusion-2-1-base
+unet:
+  repo_name: amd/SD2.1-Nitro
+  ckpt_name: sd2.1_nitro.bin
+scheduler: ddpm
+timesteps: [999]
+saved_steps: [0]
+text_embedding_dim: 768
+image_shape: [4, 64, 64]

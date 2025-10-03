@@ -1,0 +1,2 @@
+pipeline: stable_diffusion_xl
+base_model_id: stabilityai/stable-diffusion-xl-base-1.0

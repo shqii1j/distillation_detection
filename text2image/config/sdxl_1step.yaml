@@ -1,0 +1,10 @@
+pipeline: stable_diffusion_xl
+base_model_id: stabilityai/stable-diffusion-xl-base-1.0
+unet:
+  repo_name: ByteDance/SDXL-Lightning
+  ckpt_name: sdxl_lightning_1step_unet_x0.safetensors
+scheduler: euler_discrete
+timesteps: [999]
+saved_steps: [0]
+text_embedding_dim: 768
+image_shape: [4, 64, 64]

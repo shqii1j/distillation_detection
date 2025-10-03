@@ -1,0 +1,10 @@
+pipeline: stable_diffusion_xl
+base_model_id: stabilityai/stable-diffusion-xl-base-1.0
+unet:
+  repo_name: tianweiy/DMD2
+  ckpt_name: dmd2_sdxl_4step_unet_fp16.bin
+scheduler: lcms
+timesteps: [999, 749, 499, 249]
+saved_steps: [0, 1, 2, 3]
+text_embedding_dim: 768
+image_shape: [4, 64, 64]

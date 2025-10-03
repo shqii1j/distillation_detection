@@ -1,0 +1,4 @@
+pipeline: stable_diffusion
+base_model_id: nota-ai/bk-sdm-small
+text_embedding_dim: 768
+image_shape: [4, 64, 64]

@@ -1,0 +1,2 @@
+pipeline: pixart-sigma
+base_model_id: PixArt-alpha/PixArt-Sigma-XL-2-1024-MS

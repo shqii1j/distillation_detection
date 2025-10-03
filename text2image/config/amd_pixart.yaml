@@ -1,0 +1,9 @@
+pipeline: pixart-sigma
+base_model_id: PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+transformer:
+  repo_name: amd/PixArt-Sigma-Nitro
+  ckpt_name: pixart-sigma-nitro.safetensors
+timesteps: [400]
+saved_steps: [0]
+text_embedding_dim: 768
+image_shape: [4, 64, 64]

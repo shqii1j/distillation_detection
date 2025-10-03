@@ -1,0 +1,3 @@
+pipeline: stable_diffusion
+base_model_id: CompVis/stable-diffusion-v1-4
+scheduler: euler_discrete
